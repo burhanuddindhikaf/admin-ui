@@ -100,11 +100,25 @@ const AuthLayout = (props) => {
         Sign In Here
     </Link>
     </>
-  ) : (
-    <Link to="/register" className="text-primary text-sm font-bold">
-      Create an account
+  ) : type === "forgot" ? (
+    <>
+      <Link to="/login" className="text-gray-03 text-sm font-bold">
+        back to login
       </Link>
-  )}
+    </>
+
+ ) : (
+  <>
+    <div className="flex flex-col items-center space-y-2">
+      <Link to="/register" className="text-primary text-sm font-bold">
+        Create an account
+      </Link>
+      <Link to="/forgot" className="text-gray-03 text-sm font-bold">
+        Forgot Password
+      </Link>
+    </div>
+  </>
+)}
 </div>
 {/* link end */}
       </div>
