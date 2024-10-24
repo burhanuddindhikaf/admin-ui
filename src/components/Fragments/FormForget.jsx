@@ -5,7 +5,7 @@ import LabeledInput from "../Elements/LabeledInput";
 const FormForgot = () => {
   return (
     <form action="">
-      <div className="w-full max-w-sm">
+      <div className="mb-6">
         <h1 className="text-xl text-center font-bold mt-8 mb-3">
           Forgot Password?
         </h1>
