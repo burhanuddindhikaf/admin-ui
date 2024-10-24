@@ -102,7 +102,7 @@ const AuthLayout = (props) => {
     </>
   ) : type === "forgot" ? (
     <>
-      <Link to="/login" className="text-gray-03 text-sm font-bold">
+      <Link to="/login  " className="text-gray-03 text-sm font-bold">
         back to login
       </Link>
     </>
