@@ -18,6 +18,8 @@ const AuthLayout = (props) => {
         </div>
         {/* form end */}
         {/* teks start */}
+        {type != "forgot" ? (
+          <>
         <div className="my-9 px-7 flex justify-center text-xs text-gray-03 items-center flex-col static">
           <div className="border border-gray-05 w-full"></div>
           <div className="px-2 bg-special-mainBg absolute"> or sign in with</div>
@@ -25,14 +27,15 @@ const AuthLayout = (props) => {
         {/* teks end */}
         {/* sign in with google start */}
         <div className="mb-8">
-          <button
+          
+            <button
             className="h-12 flex items-center justify-center rounded-md text-sm w-full bg-gray-05 text-gray-01"
             type="button"
           >
             <svg
               className="h-6 w-6 mr-2"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
               width="800px"
               height="800px"
               viewBox="-0.5 0 48 48"
@@ -44,9 +47,9 @@ const AuthLayout = (props) => {
               <g
                 id="Icons"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
-                fill-rule="evenodd"
+                fillRule="evenodd"
               >
                 {" "}
                 <g id="Color-" transform="translate(-401.000000, -860.000000)">
@@ -87,7 +90,10 @@ const AuthLayout = (props) => {
             </svg>
             <span>Continue with Google</span>
           </button>
+          
+          
         </div>
+        </>):<></>}
         {/* sign in with google end */}
         {/* link start */}
 <div className="flex justify-center">
