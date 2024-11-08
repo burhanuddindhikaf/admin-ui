@@ -7,26 +7,44 @@ const BalancePage = () => {
       {/* top content start*/}
       <div className="mb-8 sm:flex sm:gap-6">
         <div className="sm:w-1/3">
-          <Card />
+          <Card 
+      description="description"
+      title="Title"
+      />
         </div>
         <div className="sm:w-1/3">
-          <Card />
+          <Card 
+      description="description"
+      title="Title"
+      />
         </div>
         <div className="sm:w-1/3">
-          <Card />
+          <Card 
+      description="description"
+      title="Title"
+      />
         </div>
       </div>
       {/* top content end*/}
       {/* bottom content start*/}
       <div className="mb-8 sm:flex sm:gap-6">
         <div className="sm:w-1/3">
-          <Card />
+          <Card 
+      description="description"
+      title="Title"
+      />
         </div>
         <div className="sm:w-1/3">
-          <Card />
+          <Card 
+      description="description"
+      title="Title"
+      />
         </div>
         <div className="sm:w-1/3">
-          <Card />
+          <Card 
+      description="description"
+      title="Title"
+      />
         </div>
       </div>
       {/* bottom content end*/}
